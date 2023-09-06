@@ -120,8 +120,7 @@ const Page = () => {
     </main>
     <footer className="row">
       <div className="col presta">
-        <h3>Notre derniére prestation</h3>
-        `  <h3>Notre derniére prestation</h3>
+          <h3>Notre derniére prestation</h3>
           {error && <div>An error occured</div>}
           {data === null ? (
             "loading"
